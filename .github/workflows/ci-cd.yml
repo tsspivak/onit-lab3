@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ghcr.io/tsssins/onit3-new
+  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   test:
